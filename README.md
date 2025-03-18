@@ -133,7 +133,7 @@
 
   export default App;
   ```
-
+Download en core med7 lg file from here : https://www.dropbox.com/s/xbgsy6tyctvrqz3/en_core_med7_lg.tar.gz?dl=1
 ## Deployment
 
 1. **Cloud Platform**: Deploy the application on a cloud platform like AWS or Google Cloud.
