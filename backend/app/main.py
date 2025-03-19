@@ -17,9 +17,13 @@ app.add_middleware(
 )
 
 # Initialize models at startup
-ner = ClinicalNER(api_key="your_hugging_face_api_key")
-summarizer = MedicalSummarizer(api_key="your_hugging_face_api_key")
-sentiment_analyzer = ClinicalSentimentAnalyzer(api_key="your_hugging_face_api_key")
+import os
+
+HUGGING_FACE_TOKEN = os.getenv("HUGGING_FACE_TOKEN")
+ner = ClinicalNER(api_key=HUGGING_FACE_TOKEN)
+summarizer = MedicalSummarizer(api_key=HUGGING_FACE_TOKEN)
+sentiment_analyzer = ClinicalSentimentAnalyzer(api_key=HUGGING_FACE_TOKEN)
+
 
 class AnalysisRequest(BaseModel):
     text: str
