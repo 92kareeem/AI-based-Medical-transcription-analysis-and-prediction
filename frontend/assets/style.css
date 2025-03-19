@@ -1,0 +1,35 @@
+.header {
+    background: linear-gradient(135deg, #2D9CDB 0%, #1B7BB2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.analytics-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 1.5rem;
+}
+
+.ac-title {
+    color: #7F8C8D;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.ac-value {
+    color: #2C3E50;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.soap-card {
+    background: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+}
